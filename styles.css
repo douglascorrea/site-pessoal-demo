@@ -1,0 +1,60 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.navbar-container {
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.menu ul {
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 20px;
+}
+
+.menu ul li a:active {
+    color: #000;
+}
+
+.menu ul li a:hover {
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 10%;
+}
+
+.content-container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.hero {
+    margin-left: 15px;
+}
+
+.hero h1 {
+    max-width: 660px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+
+
+
+
+
